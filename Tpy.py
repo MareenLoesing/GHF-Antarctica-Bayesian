@@ -1,7 +1,7 @@
 import sys
 import numpy as np
 sys.path.append("Y:")
-import wopy.MCMC.toy as toy
+import toy as toy
 import matplotlib.pyplot as plt
 plt.ion()
 import seaborn as sns
