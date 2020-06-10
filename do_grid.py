@@ -1,5 +1,5 @@
 import numpy as np
-import wopy.MCMC.toy as toy
+import toy as toy
 import matplotlib.pyplot as plt
 import pandas as pd
 import time
