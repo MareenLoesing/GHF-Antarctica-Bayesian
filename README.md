@@ -8,4 +8,4 @@ Heat production values for the Antarctic Peninsula (Peninsula_HP.csv) are from B
 
 Get started by running do_grid.py. The toy.py module performs the Markov Chain Monte Carlo algorithm and Tpy.py calculates the isotherm temperatures. Initial code and toy.py were created by Wolfgang Szwillus (https://github.com/wokos).
 
-More information will be given by Loesing et al. (2020) "Geothermal Heat Flux in Antarctica: Assessing Models and Observations by Bayesian Inversion".
+More information will be given by Loesing et al. (2020) "Geothermal Heat Flux in Antarctica: Assessing Models and Observations by Bayesian Inversion". https://doi.org/10.3389/feart.2020.00105
