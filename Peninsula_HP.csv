@@ -1,3 +1,4 @@
+#Lithosphere Model by An et al. 2015 (https://doi.org/10.1002/2014JB011332 and https://doi.org/10.1002/2015JB011917) and heat production values by Burton-Johnson et al. 2017 (https://doi.org/10.1002/2017GL073596)
 Lon	Lat	HP	AN1_Curie	AN1_Moho	AN1_LAB
 -2500000.00	1250000.00	0.23	22.50	24.00	161.00
 -2500000.00	1300000.00	0.47	22.00	25.00	146.00
