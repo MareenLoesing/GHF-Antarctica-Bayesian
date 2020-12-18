@@ -9,11 +9,11 @@ from Tpy import TempCalc,TempCalcExp
 #Whole Antarctic continent --> Default
 #Only Peninsula with heat production 
 #from Burton-Johnson et al. (2017) --> Peninsula
-what = 'Peninsula'
+what = 'Default'
 model = 'AN1'
 
 if (what == 'Default'):
-    data = pd.read_csv('Models.csv', sep='\t')
+    data = pd.read_csv('Depths_AN1.csv', sep=',')
     p=4
     print('Default')
 elif (what == 'Peninsula'): 
@@ -45,9 +45,9 @@ hyperprior = toy.RangePrior([1.0],[10.0])
 hyperProposal = toy.ComponentUpdateProposal([0.5])
 
 for i in range(N):
-    curie = data.AN1_Curie[i]*1000
-    moho = data.AN1_Moho[i]*1000
-    lab = data.AN1_LAB[i]*1000
+    curie = data.Curie[i]*1000
+    moho = data.Moho[i]*1000
+    lab = data.LAB[i]*1000
 
     if (what == 'Peninsula'):
         Aa = A[i]
