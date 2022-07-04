@@ -1,3 +1,5 @@
+# Written by Wolfgang Szwillus
+
 import numpy as np
 from scipy.spatial.distance import cdist
 _LOG_2PI = np.log(2 * np.pi)
